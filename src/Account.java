@@ -6,10 +6,14 @@ public class Account {
 	private int balance;
 	private static int totalBalance;
 	
-	public  void info() {
-		System.out.println(balance);			//???
-		System.out.println(totalBalance);		//60000
+	public void showBalance() {
+		System.out.println("Balance in "+ano+" is "+balance);
 	}
+	/*
+	public static void showBalance(Account tmp) {
+		System.out.println("Balance in account "+tmp.ano+" is "+tmp.balance);
+	}
+	*/
 	
 	public static void showTotalBalance() {
 		System.out.println("Total Balance  : "+totalBalance);
